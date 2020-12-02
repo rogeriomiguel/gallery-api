@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "express": "^4.17.1",
-    "mongoose": "^5.10.15",
-    "sequelize": "^6.3.5"
+    "mongoose": "^5.10.15"
   },
   "devDependencies": {
     "eslint": "^7.14.0",

@@ -12,7 +12,7 @@ mongoose.connect('mongodb://localhost/gallery', {
   useCreateIndex: true,
 });
 
-App.use('/', routes);
+App.use('/v1', routes);
 
 App.listen(3333, () => {
   // eslint-disable-next-line no-console
